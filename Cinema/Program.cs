@@ -8,10 +8,8 @@ namespace Cinema
         static void Main(string[] args)
         {
             Console.WriteLine("___Cinema simulator 2000___\n");
-            Console.Write("Задайте пароль для администратора: ");
-            string password = Console.ReadLine();
 
-            Reader reader = new Reader(password);
+            Reader reader = new Reader();
 
             Console.Write("Задайте количество денег на балансе (от 1 до 10000): ");
             int balance = reader.NextInt(1, 10000);

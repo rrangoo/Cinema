@@ -72,8 +72,6 @@ namespace Cinema
                         menu.ShowBoughtSits(cinema);
                         break;
                     case 4:
-                        break;
-                    case 5:
                         menu.Exit(ref isExit);
                         break;
                 }

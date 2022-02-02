@@ -9,8 +9,7 @@ namespace Cinema.Optional
             Console.WriteLine("1. Показать цены на места.");
             Console.WriteLine("2. Купить билет.");
             Console.WriteLine("3. Показать занятые места.");
-            Console.WriteLine("4. Права администратора.");
-            Console.WriteLine("5. Выход.");
+            Console.WriteLine("4. Выход.");
 
             Console.Write("\nВведите число: ");
         }

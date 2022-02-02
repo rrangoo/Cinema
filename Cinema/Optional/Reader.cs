@@ -4,11 +4,9 @@ namespace Cinema.Optional
 {
     public class Reader
     {
-        string password;
 
-        public Reader(string password)
+        public Reader()
         {
-            this.password = password;
         }
 
         public int NextInt(int min, int max)
@@ -50,13 +48,6 @@ namespace Cinema.Optional
                 }
             }
             return prices;
-        }
-
-        public bool ReadPassword()
-        {
-            string inputLine = Console.ReadLine();
-
-            return inputLine.Equals(password);
         }
     }
 }
