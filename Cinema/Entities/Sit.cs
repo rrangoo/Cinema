@@ -18,6 +18,16 @@ namespace Cinema.Entities
             return cost;
         }
 
+        public bool GetFree()
+        {
+            return isFree;
+        }
+
+        public void Take()
+        {
+            isFree = false;
+        }
+
         public override string ToString()
         {
             return isFree ? "0" : "X";

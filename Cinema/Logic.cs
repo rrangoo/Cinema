@@ -66,6 +66,7 @@ namespace Cinema
                         menu.ShowPrices(cinema);
                         break;
                     case 2:
+                        menu.BuyTicket(cinema, reader, ref balance);
                         break;
                     case 3:
                         menu.ShowBoughtSits(cinema);
